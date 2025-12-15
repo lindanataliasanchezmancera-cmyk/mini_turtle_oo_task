@@ -1,0 +1,30 @@
+[build-system]
+# Herramientas necesarias para construir el paquete
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mini-turtle-oo"
+version = "1.0.1"
+description = "Paquete educativo en Python que simula una tortuga utilizando Programación Orientada a Objetos."
+readme = "README.md"
+
+authors = [
+    { name = "Julian Muñoz", email = "julian@email.com" }
+]
+
+license = { text = "MIT License" }
+keywords = ["python", "oop", "turtle", "educacion", "objetos"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta"
+]
+
+# No se requieren dependencias externas
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/lindanataliasanchezmancera-cmyk/mini_turtle_oo_task"
